@@ -1,0 +1,415 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE LAB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
+
+
+
+    ">
+    
+<style>
+    
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .Menu-bar{
+        background: fixed;
+        text-align: left;
+    }
+    .Menu-bar ul{
+        display: inline-flex;
+        list-style: none;
+        color: white;
+        
+    }
+    .Menu-bar ul li{
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .Menu-bar ul li a{
+        text-decoration: none;
+        color: Gray;
+    }
+    .Menu-bar ul li a:hover{
+        background:white;
+    }
+    .sub-Menu-1{
+        display: none;
+    }
+    .Menu-bar ul li:hover .sub-Menu-1{
+        display: block;
+        position: absolute;
+        background:white;
+     
+      
+    }
+    .Menu-bar ul li:hover .sub-Menu-1 ul{
+        display: block;
+        margin: 5px;
+    }
+.Menu-bar ul li:hover .sub-Menu-1 ul li{
+    width: 250px;
+    padding: 5px;
+    border-bottom: 1px dotted black;
+
+}
+ 
+   .container {
+    width: 100%;
+    height: 100vh;
+    background: url(h.wQ7nqzXG6LLji1s3MrOP);
+    background-repeat: calc(2);
+    background-size: contain;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .container img{
+    background-repeat: no-repeat;
+  background-size: auto
+   }
+   .content{
+    text-align: center; 
+   }
+   .content h4{
+    font-size: 65px;
+    color:white ;
+    margin-bottom: 50px;
+   }
+   .content h6{
+    font-size: 15px;
+    color: #accc;
+   }
+   .content a{
+    font-size: 23px;
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border: 2px solid green;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.33s;
+    
+
+   }
+   .content a:hover{
+    background-color: green;
+    color: greenyellow;
+   }
+.BN{
+    background-color: greenyellow;
+    
+  
+}
+.BN {
+    color: gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+.bt a{
+    font-size: 23px;
+    text-decoration: none;
+    color:lightgreen;
+    border: 2px solid green;
+    background-color: black;
+   
+    border-radius: 100px 100px;
+  
+  
+    
+}
+.bt a:hover{
+    background-color: green;
+    color: greenyellow;
+   }
+   .UN{
+background-color: #eee;    
+    
+   }
+   .UN img{
+    width: 250px;
+   }
+   .p2{
+    color: gray;
+   }
+   .UN ul li{
+    list-style: none;
+    display: block;
+    background-color: white;
+   }
+   .column{
+    float: left;
+    width: 25%;
+    padding: 2px;
+    background-color:white;
+   } 
+
+.row::after{
+    
+   
+
+}
+.SL a{
+    color: white;
+    background-color: black;
+    float: none;
+    border-radius: 50px;
+    list-style: none;
+    
+}
+.SL a:hover{
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+.CU {
+    background: rgb(74, 199, 40);
+    color: white;
+    border-radius: 50px;
+}
+.CU a{
+    color: black;
+}
+.NU{
+background: fixed;
+text-align: left;
+align-items: left;
+    
+
+}
+.NU ul{
+    display: inline-block;
+    list-style: none;
+    color: gray;
+}
+.NU ul li{
+    width: 250px;
+    
+}
+.NU ul li img{
+    width: 250px;
+    position: absolute;
+    align-items: left;
+
+}
+.Column-1{
+    float: left;
+    width: 25px;
+    padding: 2px;
+    align-items: left;
+}
+
+</style>
+</head>
+<body>
+ <div class="Menu-bar">
+    <ul>
+        <li><a href="#h">Coding.lab</a></li>
+        <li >
+            <a href="#h">About Us</a>
+            <div class="sub-Menu-1">
+                <ul>
+                    <li><a href="#h">Our Story</a></li>
+                    <li><a href="#h">Our team</a></li>
+                    <li><a href="#h">Join Us!</a></li>
+                    <li><a href="#h">Students' Achievements</a></li>
+                    <li><a href="#h">Raving Reviews</a></li>
+                    <li><a href="#h">Meet Our Student</a></li>
+                    <li><a href="#h">Corporate Partner</a></li>
+                    <li><a href="#h">Blog</a></li>
+                </ul>
+
+            </div>
+
+
+
+        </li>
+        <li>
+            <a href="#h">Our Classes</a>
+            <div class="sub-Menu-1">
+                <ul>
+                    <li><a href="#h">Overview</a></li>
+                    <li><a href="#h">Ages 5-6</a></li>
+                    <li><a href="#h">Ages 7-9</a></li>
+                    <li><a href="#h">Ages 10-12</a></li>
+                    <li><a href="#h">Ages 13-18</a></li>
+                    <li><a href="#h">Academics</a></li>
+                    <li><a href="#h">Professional</a></li>
+                    <li><a href="#h">Special programme</a></li>
+                    <li><a href="#h">Thematic  Workshops</a></li>
+                    <li><a href="#h">Live Online Classes</a></li> 
+                    
+
+
+                </ul>
+
+            </div>
+        
+        
+        
+        
+        </li>
+        <li>
+            <a href="#h">Competitions</a>
+            <div class="sub-Menu-1">
+                <ul>
+                    <li><a href="#h">Minecraft Cup 2024</a></li>
+                    <li><a href="#h">Technovation Girls Challenge 2024</a></li>
+                    <li><a href="#h">Hwa Chong Infocomm Challenge (HCIC)</a></li>
+                    <li><a href="#h">International Coding Showcase 2024/2025</a></li>
+                    <li><a href="#h">International Coding Showcase 2023/2024</a></li>
+                    <li><a href="#h">International Coding Showcase 2023/2024 Results</a></li>
+                </ul>
+
+            </div>
+        
+        
+        
+        
+        </li>
+        <li>
+            <a href="#h">Achievements</a>
+            <div class="sub-Menu-1">
+                <ul>
+                    <li><a href="#h">Students' Achievements</a></li>
+                    <li><a href="#h">DSA</a></li>
+        
+                </ul>
+
+            </div>
+        </li>
+        <li>
+            <a href="#h">Resources</a>
+            <div class="sub-Menu-1">
+                <ul>
+                    <li><a href="#h">Why Learn Coding?</a></li>
+                    <li><a href="#h">FAQ</a></li>
+                    <li><a href="#h">Useful Resources</a></li>
+                    <li><a href="#h">App Inventor in Asia</a></li>
+                    <li><a href="#h">Coding Bytes</a></li>
+                    
+                </ul>
+
+            </div>
+        </li>
+        <li>
+            <a href="#h">Global</a>
+            <div class="sub-Menu-1">
+                <ul>
+                    <li><a href="#h">Singapore</a></li>
+                    <li><a href="#h">Japan</a></li>
+                    <li><a href="#h">Malaysia</a></li>
+                    <li><a href="#h">Online</a></li>
+                </ul>
+            </div>
+        
+        </li>
+
+        <li class="CU"><i class="fa fa-phone" aria-hidden="true"></i><a href="#">Contact Us</a></li>
+    </ul>
+</div>
+<div class="container">
+   
+    <div class="content">
+        <h4>View Our <br> Students'<br> Achievements.</h4>
+        <h6>Your child could be next!</h6>
+        <a href="#">View Students' Achievements</a>
+    </div>
+
+</div>
+
+<div class="BN">
+    <UL>
+    <H1 >An Award-Winning Coding Curriculum to Nurture Future Leaders in Technology</H1>
+    <P>Founded by an MIT Master's alumnus who worked in Silicon Valley, Coding Lab® 's multi award-winning curriculum <BR> is best-in-class. Our track record speaks for itself; Coding Lab students have won medals at the National Olympiad <BR></BR>in Informatics, represented Singapore in Global Competitions, entered the school of their choice via the Direct <br> School Admissions (DSA) exercise, obtained stellar grades for their examinations and secured admissions to top<BR> universities globally.<BR>
+
+        Experience the Coding Lab® Difference - The preferred choice of parents and students.</P>
+        <li class="bt"><a href="">See our students' Achievements</a></li>
+        </UL>
+       
+</div>
+<div class="UN">
+ <div class="column">
+            <img src="b.jpeg" alt="">
+            <P>Ages 5-6</P>
+            <p>Scratch Jr | Robotics | Montessori | <br>
+                Tinkering with STEM</p>
+                <p class="p2">Start your child on their journey in <br>
+                     logical thinking with our Junior Coders<br> programme. 
+                     Kids get to program an <br>animation, direct a robot to retrieve 
+                     <br>treasure and much more! Discover<br> programming and 
+                     computational<br>thinking in an age-appropriate way – <br>
+                     like picking up a new language – with <br> crafts and minimal screen time.<br>
+                     We are trying our automoust best <br>
+                     to implement super learning system<br>
+                     for your Kids. <br>
+                     We consider everyone<br>
+                     as super learners
+                    </p>
+                    <li class="SL"><a href="#h">Courses for Ages 5-6</a></li>
+ </div>
+ <div class="column">
+    <img src="g.avif" alt="">
+    <p>Ages 7 - 9</p>
+    <p>Scratch | Micro:Bit | mBot Robotics |<br> Game Development |<br> Young Computer Scientists
+
+    </p>
+    <p class="p2">Build your child’s foundation and inspire<br>
+         them to pick up an important lifelong <br>
+         skill for the future.  Start your child off on<br>
+          the right foot forward with our MIT-<br>
+          inspired, award-winning curriculum that <br>
+          has turned learners into winners of <br>
+          National and Global Code competitions.<br>
+           Let your child have the best chance of<br>
+            success in coding and computational <br>
+            thinking with our rigorous, results-driven<br>
+             programme.
+
+    </p>
+    <li class="SL"><a href="#h">Courses for Ages 7-9</a></li>
+ </div>
+ <div class="column">
+    <img src="a.jpg" alt="">
+    <p>Ages 10 - 12</p>
+    <p>App Development | Python | Advanced<br>
+         Computer Scientists | Direct School <br>
+          (DSA) | HCIC </p>
+          <p class="p2">From getting into their dream<br> secondary schools via DSA,
+             winning <br>Singapore Nationals competitions such <br>as HCIC (Hwa Chong Infocomms <br> Challege)
+              to winning global<br> competitions such as MIT App Inventor<br> Summit Hackathons,
+               our curriculum has<br> helped our students achieve <br>tremendous results that matter. 
+            Let your <br>child excel in Computational Thinking<br> with our structured, progressive learning<br> roadmap!</p>
+     <li class="SL"> <a href="#h">Courses for Ages 10-12</a></li>
+ </div>
+ <div class="column">
+    <img src="L.jpg" alt="">
+    <p>Ages 13 - 18</p>
+    <p>App Development | Python | Advanced<br>
+         Computer Scientists | Direct School <br>
+          (DSA) | HCIC </p>
+          <p class="p2">From getting into their dream<br> secondary schools via DSA,
+             winning <br>Singapore Nationals competitions such <br>as HCIC (Hwa Chong Infocomms <br> Challege)
+              to winning global<br> competitions such as MIT App Inventor<br> Summit Hackathons,
+               our curriculum has<br> helped our students achieve <br>tremendous results that matter. 
+            Let your <br>child excel in Computational Thinking<br> with our structured, progressive learning<br> roadmap!</p>
+         <li class="SL"><a href="#h">Courses for Ages 13-18</a></li>
+         
+ </div>
+ 
+
+</div>
+
+</body>
+</html>
